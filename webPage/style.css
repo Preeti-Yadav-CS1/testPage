@@ -1,0 +1,286 @@
+*{
+    margin:0px;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0)0%,rgba(0,0,0,0)0%), url(tim-mossholder-07uiqD9LS6U-unsplash.jpg);
+    /* background: fixed; */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 2000px;
+    height: 75px;
+    /* margin: auto; */
+
+}
+
+.icon{
+    width:150px;
+    float:left;
+    height:70px;
+}
+
+.logo{
+    color: #FF652F;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    float: left;
+    padding-top:10px;
+}
+.menu{
+    width: 400px;
+    float:left;
+    height:70px;
+}
+ul{
+    float:left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin-left:  62px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+ul li a{
+    color:#FCEDDA;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-weight: 600;
+}
+
+ul li a:hover{
+    color: #ADD8E6;
+}
+.search{
+    float:left;
+    margin-left:300px;
+    width: 400px;
+}
+.searchbar{
+    font-family: 'Times New Roman';
+    width: 153px;
+    height: 40px;
+    background: rgba(0,0,0,0.3);
+    margin-top:30px;
+    margin-right:0px;
+    border: 2px solid chocolate;
+    font-size: 18px;
+    float:left;
+    padding:1px;
+    border-bottom-left-radius:5px;
+    border-top-right-radius: 5px;
+    /* border-right: none; */
+    color: azure;
+}
+.button{
+    font-family: Georgia;
+    /* float:right; */
+    /* padding:0px; */
+    width:100px;
+    height: 30px;
+    margin-top:35px;
+    margin-left: 3px;
+    border:2px solid black;
+    font-size: 18px;
+    background: darkcyan;
+    /* border-bottom-left-radius:5px; */
+    /* border-top-right-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* margin-left: 0px; */
+    color: azure;
+}
+.button:hover{
+    color:burlywood;
+}
+.button:focus{
+    outline:none;
+
+}
+.searchbar:focus{
+    outline:none;
+}
+
+.content{
+    margin-top:50px;
+    margin-left:40px;
+    width:2000px;
+    /* color: #FEFFFF; */
+    position: relative;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size:50px;
+    padding-left:20px;
+    letter-spacing: 2px;
+    margin-top:3%;
+    color: #FEFFFF;
+}
+
+.content .paragraph{
+    padding-left:20px;
+    padding-bottom:25px;
+    font-family: cursive;
+    font-size:20px;
+    
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    color:whitesmoke;
+}
+
+.content .join{
+    width:153px;
+    height:40px;
+    background-color: #ff7200;
+    border:none;
+    margin-bottom: 10px;
+    margin-left:20px;
+    font-size:20px;
+    border-radius:10px;
+    cursor: pointer;
+    font-family: 'Times New Roman';
+}
+
+.content .join a{
+    color: black;
+    text-decoration: none;
+    transition: .2 ease;
+}
+
+.join:hover{
+    background-color: aliceblue;
+
+}
+.content span{
+    color:#ff7200;
+}
+
+/* login form  */
+.loginForm{
+    width:350px;
+    height: 400px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top:-20px;
+    left:750px;
+    margin-right: 150px;
+    border-radius: 10px;
+    padding:25px;
+
+}
+
+.loginForm h2{
+    text-align:center;
+    font-size:22px;
+    font-family:Times;
+    /* background-color: coral; */
+    background: #ff7200;
+    color: rgb(210, 90, 30);
+    width: 220px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-left:50px;
+    padding:10px;
+    transition-delay: 2s ease;
+}
+
+.loginForm h2:hover{
+    background-color: darkcyan;
+    color: beige;
+
+}
+.loginForm input{
+    width:300px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid chocolate;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+
+.loginForm input{
+    outline:none;
+}
+
+::placeholder{
+    color: azure;
+    font-family: monospace;
+}
+
+.BUTTON1{
+    width:153px;
+    height:40px;
+    background-color: #ff7200;
+    border:none;
+    margin-top:30px;
+    margin-bottom: 10px;
+    margin-left:100px;
+    font-size:20px;
+    border-radius:10px;
+    cursor: pointer;
+    font-family: 'Times New Roman';
+    border:none;
+    cursor:pointer;
+    color:darkcyan;
+}
+
+.BUTTON1 a{
+    color: black;
+    text-decoration: none;
+    transition: .2 ease;
+    font-weight:bold;
+    font-family: Times;
+    color: white;
+}
+
+.BUTTON1:hover{
+    background-color: darkcyan;
+
+}
+/* 
+.loginForm notAccount{
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align:center;
+
+}
+.loginForm a{
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align:center;
+} */
+
+.loginForm p{
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align:center;
+    font-size:20px;
+    color: rgb(254, 182, 182);
+}
+.loginForm p a{
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align:center;
+    color: #ff7200;
+    text-decoration: none;
+}
+
+/* .loginForm a:hover{
+    /* color:darkcyan; */
